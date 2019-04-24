@@ -24,6 +24,12 @@ function twoSum(nums, target) {
 }
 
 var arr = [2, 7, 11, 15],
-  target = 30;
+  target = 30,
+  target1 = 9,
+  target2 = 18,
+  target3 = 26;
 
 console.log(twoSum(arr, target));
+console.log(twoSum(arr, target1));
+console.log(twoSum(arr, target2));
+console.log(twoSum(arr, target3));
